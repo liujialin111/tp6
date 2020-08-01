@@ -14,4 +14,8 @@ class Index extends BaseController
     {
         return 'hello,' . $name;
     }
+    function ceshi()
+    {
+    	echo md5('123456');
+    }
 }
